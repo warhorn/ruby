@@ -32,6 +32,7 @@ None
 
 * `build-essential`
 * `ruby-dev`
+* `git`
 
 ### Ruby Environment
 
