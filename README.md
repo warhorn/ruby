@@ -34,7 +34,11 @@ None
 * `ruby-dev`
 * `git`
 
-### Ruby Environment
+### Ruby environment
 
 * `ruby`
 * `bundler`
+
+### Warhorn app dependencies
+
+* `libpq-dev`
