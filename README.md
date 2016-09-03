@@ -1,18 +1,18 @@
-# convox/ruby
+# warhorn/ruby
 
-Convox base image for Ruby
+Warhorn base image for Ruby apps
 
 ## Usage
 
-	FROM convox/ruby
-	
-	# copy only the files needed for bundle install
-	COPY Gemfile      /app/Gemfile
-	COPY Gemfile.lock /app/Gemfile.lock
-	RUN bundle install
-	
-	# copy the rest of the app
-	COPY . /app
+  FROM warhorn/ruby
+
+  # copy only the files needed for bundle install
+  COPY Gemfile /app/Gemfile
+  COPY Gemfile.lock /app/Gemfile.lock
+  RUN bundle install
+
+  # copy the rest of the app
+  COPY . /app
 
 ## Expectations
 
